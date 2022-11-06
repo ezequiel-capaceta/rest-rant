@@ -7,9 +7,12 @@ app.engine('jsx', require('express-react-views').createEngine())
 
 app.use('/places', require('./controllers/places'))
 
+// GET /places
 app.get('/', (req, res) => {
-  res.send('Hello world home page')
-})
+    let places = []
+    res.render('places/index')
+  })
+  
 
 app.get('*', (req, res) => {
   res.send('404 page')
