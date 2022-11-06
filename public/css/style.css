@@ -3,4 +3,13 @@ h1 {
     color: cornflowerblue;
   }
 
-  
+  .food_img img
+  {
+     max-width:100% !important;
+  }
+
+  .col-sm-6 img
+  {
+    max-width:50% !important;
+
+  }
