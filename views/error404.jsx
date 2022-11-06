@@ -8,7 +8,7 @@ function error404 () {
               <h1>404: PAGE NOT FOUND</h1>
               <p>Oops, sorry, we can't find this page!</p>
               <div>
-                  <img src="/images/NO.jpg" alt="food" />
+                  <img src="/images/NO.jpg" alt="food" width="500px"/>
                   <div>
                     Photo by meme-arsenal.ru 
                   </div>
